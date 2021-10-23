@@ -11,22 +11,20 @@ public class Exercice4 {
         System.out.println("Enter the num1:");
 //Reading the value
         Scanner inputValue;
-        inputValue=new Scanner(System.in);
+        inputValue =new Scanner(System.in);
         x = inputValue.nextFloat();
         /////////////
         System.out.println("Enter the num552:");
 //Reading the value2
-        Scanner num;
-        num=new Scanner(System.in);
-        y = num.nextFloat();
+        y = inputValue.nextFloat();
         addition = x + y;
-        subtraction = x-y;
-        multiplication = x*y;
-        division= x/y;
-        System.out.println("La suma es: " +addition);
-        System.out.println("La suma es: " +subtraction);
-        System.out.println("La suma es: " +multiplication);
-        System.out.println("La suma es: " +division);
+        subtraction = x - y;
+        multiplication = x * y;
+        division = x / y;
+        System.out.println("La suma es: " + addition);
+        System.out.println("La suma es: " + subtraction);
+        System.out.println("La suma es: " + multiplication);
+        System.out.println("La suma es: " + division);
 
 
     }
